@@ -1,0 +1,178 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facilities - CityCare Hospital</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            <i class="bi bi-hospital"></i>
+            CityCare Hospital
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="departments.html">Departments</a></li>
+                <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link active" href="facilities.html">Facilities</a></li>
+                <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<section class="facilities-header text-center">
+    <div class="container">
+        <span class="facility-top-label">CITYCARE HOSPITAL</span>
+        <h1>Our Modern Facilities</h1>
+        <p>Advanced infrastructure and patient-focused facilities for better healthcare.</p>
+    </div>
+</section>
+
+<!-- FACILITIES -->
+<section class="facilities-section">
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <span class="specialty-label">OUR INFRASTRUCTURE</span>
+            <h2>Modern Facilities <span>for Better Care</span></h2>
+            <p>
+                Explore our facilities, designed to support medical treatment,
+                patient comfort and quality healthcare.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- ICU -->
+            <div class="col-md-6 col-lg-4">
+                <div class="facility-card-new">
+                    <img src="images/icu.jpg" alt="Intensive Care Unit"
+                         class="facility-image">
+                    <div class="facility-content">
+                        <span class="facility-label">CRITICAL CARE</span>
+                        <h3><i class="bi bi-heart-pulse"></i> Intensive Care Unit</h3>
+                        <p>Specialized care and continuous monitoring for patients who need critical medical attention.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OPERATION THEATRE -->
+            <div class="col-md-6 col-lg-4">
+                <div class="facility-card-new">
+                    <img src="images/operation.avif" alt="Modern Operation Theatre"
+                         class="facility-image">
+                    <div class="facility-content">
+                        <span class="facility-label">SURGICAL CARE</span>
+                        <h3><i class="bi bi-hospital"></i> Operation Theatres</h3>
+                        <p>Well-equipped surgical rooms designed to support safe procedures and effective patient care.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHARMACY -->
+            <div class="col-md-6 col-lg-4">
+                <div class="facility-card-new">
+                    <img src="images/pharmacy.webp" alt="Hospital Pharmacy"
+                         class="facility-image">
+                    <div class="facility-content">
+                        <span class="facility-label">MEDICINES</span>
+                        <h3><i class="bi bi-capsule"></i> Hospital Pharmacy</h3>
+                        <p>A convenient in-house pharmacy providing access to prescribed medicines and healthcare essentials.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LABORATORY -->
+            <div class="col-md-6 col-lg-4">
+                <div class="facility-card-new">
+                    <img src="images/laboratory.webp" alt="Diagnostic Laboratory"
+                         class="facility-image">
+                    <div class="facility-content">
+                        <span class="facility-label">DIAGNOSTICS</span>
+                        <h3><i class="bi bi-eyedropper"></i> Diagnostic Laboratory</h3>
+                        <p>Diagnostic testing facilities that help medical professionals assess patients' health conditions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AMBULANCE -->
+            <div class="col-md-6 col-lg-4">
+                <div class="facility-card-new">
+                    <img src="images/ambulance.avif" alt="Hospital Ambulance"
+                         class="facility-image">
+                    <div class="facility-content">
+                        <span class="facility-label">EMERGENCY</span>
+                        <h3><i class="bi bi-truck"></i> Ambulance Services</h3>
+                        <p>Emergency transport support to help patients reach medical care when they need it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PATIENT SUPPORT -->
+            <div class="col-md-6 col-lg-4">
+                <div class="facility-card-new">
+                    <img src="images/reception.webp" alt="Hospital Reception"
+                         class="facility-image">
+                    <div class="facility-content">
+                        <span class="facility-label">PATIENT COMFORT</span>
+                        <h3><i class="bi bi-person-hearts"></i> Patient Support</h3>
+                        <p>A welcoming reception and support team to assist patients and visitors with their hospital needs.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="facilities-cta text-center">
+    <div class="container">
+        <h2>Your Health Matters to Us</h2>
+        <p>Contact CityCare Hospital for appointments and healthcare information.</p>
+        <a href="contact.html" class="btn btn-light btn-lg fw-bold">
+            Contact Us <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4 text-center">
+    <div class="container">
+        <p class="mb-0">© 2026 CityCare Hospital. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
+```
