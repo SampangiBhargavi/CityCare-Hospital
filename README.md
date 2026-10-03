@@ -62,3 +62,21 @@ CityCare-Hospital/
 ├── images/
 │
 └── node_modules/
+
+
+## How to Run
+
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` in a browser.
+4. Navigate through the website using the navigation bar.
+
+## Purpose
+
+This project was developed as a frontend web development project to create a clean, responsive and user-friendly hospital website.
+
+## Author
+
+**Bhargavi**
+
+Bachelor of Engineering – Computer Science and Engineering
